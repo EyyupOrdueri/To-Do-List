@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    border: 1px solid blue;
+    padding: 2px;
+    width: 310px;
+    margin-top: 30px;
+}
+
+#inp-box {
+    width: 23rem;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+
+#inp-box:focus {
+    outline: none;
+}
+
+form button {
+    border: none;
+    background-color: white;
+}
+
+form button:hover {
+    opacity: 0.65;
+    cursor: pointer;
+}
+
+li {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    border: 1px solid aqua;
+    list-style-type: none;
+}
